@@ -43,17 +43,19 @@ cd probing_tasks
 ```
 At the end all representations will be in the representations dir 
 
-You can skip this steps by downloading representations by using this script :
+You can skip this steps by downloading representations using this script :
 TO DO
 
 ##Probing
+
 For the probing you have to execute those commandes :
 ```sh
 cd probing_tasks
-./probing_scripts/altercaps.sh
-./probing_scripts/bshift.sh
-./probing_scripts/colors_cls.sh
-./probing_scripts/flowers.sh
+./altercaps.sh
+./bshift.sh
+./colors_cls.sh
+./flowers.sh
+./postag.sh
 ```
 
 
