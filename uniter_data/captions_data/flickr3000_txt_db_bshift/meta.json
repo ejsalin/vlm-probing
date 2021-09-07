@@ -1,0 +1,14 @@
+{
+    "annotations": "../datasets/flickr_3000_bshift.csv",
+    "output": "../uniter_data/captions_data/flickr3000_txt_db_bshift",
+    "toker": "bert-base-cased",
+    "tokenizer": "bert-base-cased",
+    "UNK": 100,
+    "CLS": 101,
+    "SEP": 102,
+    "MASK": 103,
+    "v_range": [
+        106,
+        28996
+    ]
+}

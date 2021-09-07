@@ -1,0 +1,14 @@
+
+python probing_color_cls.py --vit_data ../representations/vit_colors.pickle --resnet_data ../representations/resnet_colors.pickle --bert_data ../representations/bert_colors.pickle --uniter_data ../representations/uniter_color_base_flickr.pickle --lxmert_data ../representations/../representations/lxmert_flickr_colors_base.pickle  --exp_name cls_flickr_base
+python explore_results_acc.py --path probing_results/cls_flickr_base.pickle --output probing_results/cls_flickr_base 
+python probing_color_cls.py --vit_data ../representations/vit_colors.pickle --resnet_data ../representations/resnet_colors.pickle --bert_data ../representations/bert_colors.pickle --uniter_data ../representations/uniter_color_nlvr_flickr.pickle --lxmert_data ../representations/../representations/lxmert_flickr_colors_nlvr.pickle  --exp_name cls_flickr_nlvr
+python explore_results_acc.py --path probing_results/cls_flickr_nlvr.pickle --output probing_results/cls_flickr_nlvr 
+python probing_color_cls.py --vit_data ../representations/vit_colors.pickle --resnet_data ../representations/resnet_colors.pickle --bert_data ../representations/bert_colors.pickle --uniter_data ../representations/uniter_color_vqa_flickr.pickle --lxmert_data ../representations/../representations/lxmert_flickr_colors_vqa.pickle  --exp_name cls_flickr_vqa
+python explore_results_acc.py --path probing_results/cls_flickr_vqa.pickle --output probing_results/cls_flickr_vqa 
+
+python probing_color_cls.py --vit_data ../representations/vit_colors.pickle --resnet_data ../representations/resnet_colors.pickle --bert_data ../representations/bert_colors.pickle --uniter_data ../representations/uniter_color_base_flickr_dec.pickle --lxmert_data ../representations/../representations/lxmert_flickr_colors_dec_base.pickle  --exp_name cls_flickr_base_dec
+python explore_results_acc.py --path probing_results/cls_flickr_base_dec.pickle --output probing_results/cls_flickr_base_dec 
+python probing_color_cls.py --vit_data ../representations/vit_colors.pickle --resnet_data ../representations/resnet_colors.pickle --bert_data ../representations/bert_colors.pickle --uniter_data ../representations/uniter_color_nlvr_flickr_dec.pickle --lxmert_data ../representations/../representations/lxmert_flickr_colors_dec_nlvr.pickle  --exp_name cls_flickr_nlvr_dec
+python explore_results_acc.py --path probing_results/cls_flickr_nlvr_dec.pickle --output probing_results/cls_flickr_nlvr_dec 
+python probing_color_cls.py --vit_data ../representations/vit_colors.pickle --resnet_data ../representations/resnet_colors.pickle --bert_data ../representations/bert_colors.pickle --uniter_data ../representations/uniter_color_vqa_flickr_dec.pickle --lxmert_data ../representations/../representations/lxmert_flickr_colors_dec_vqa.pickle  --exp_name cls_flickr_vqa_dec
+python explore_results_acc.py --path probing_results/cls_flickr_vqa_dec.pickle --output probing_results/cls_flickr_vqa_dec 
