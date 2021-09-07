@@ -1,0 +1,14 @@
+{
+    "annotations": "../datasets/coco_altercap_uniter_train.csv",
+    "output": "../uniter_data/captions_data/coco_txt_db_altercap_train",
+    "toker": "bert-base-cased",
+    "tokenizer": "bert-base-cased",
+    "UNK": 100,
+    "CLS": 101,
+    "SEP": 102,
+    "MASK": 103,
+    "v_range": [
+        106,
+        28996
+    ]
+}
