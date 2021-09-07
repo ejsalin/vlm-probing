@@ -1,4 +1,3 @@
-
 # Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective
 
 This is the implementations of the experiences in the paper [paper]
@@ -47,7 +46,7 @@ At the end all representations will be in the representations dir
 You can skip this steps by downloading representations by using this script :
 TO DO
 
-#Probing
+##Probing
 For the probing you have to execute those commandes :
 ```sh
 cd probing_tasks
