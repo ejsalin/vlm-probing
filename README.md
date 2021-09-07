@@ -7,8 +7,8 @@ To reproduces the results of the experiences we can proceed in two ways :
 - Computing the representations from scratch 
 - Using our precomputed representations 
 
-## Data and models Downloads 
-## to do 
+## Data and models Download
+## TODO 
 ### Computing the representations from scratch 
 To compute the UNITER,LXMERT,BERT,VIT and RESNET representations :
 1- Use the instruction on [UNITER](https://github.com/ChenRocks/UNITER) original repository to set up the environment , then execute 
