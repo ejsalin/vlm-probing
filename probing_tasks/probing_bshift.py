@@ -67,10 +67,10 @@ def main(args):
         MODELS = False
 
     if 'dec' in args.exp_name:
-     with open('split/bshift_train_dec.txt') as f:
+     with open('split/bshift_test_dec.txt') as f:
         fnames = f.read().splitlines()
     else:
-     with open('split/bshift_train.txt') as f:
+     with open('split/bshift_test.txt') as f:
         fnames = f.read().splitlines()
 
     with open(args.lxmert_data, 'rb') as handle:
