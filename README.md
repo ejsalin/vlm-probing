@@ -2,7 +2,7 @@
 
 This is the repository to reproduce the probing experiments of the paper:
 "Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective."
-This repository is based on implementations by [UNITER](https://github.com/ChenRocks/UNITER) and [LXMERT](https://github.com/airsplay/lxmert)
+This repository is based on implementations by [UNITER](https://github.com/ChenRocks/UNITER) and [LXMERT](https://github.com/airsplay/lxmert).
 
 ## Requirements
 To reproduce the results for UNITER, use the instructions on the original repository to set up the environment.
