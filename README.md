@@ -6,7 +6,9 @@ This repository is based on implementations by [UNITER](https://github.com/ChenR
 
 ## Requirements
 To reproduce the results for UNITER, use the instructions on the original repository to set up the environment.
+
 To reproduce the results for LXMERT, use the instructions on the original repository to set up the environment.
+
 The baselines are compatible with the LXMERT environment.
 
 ## Reproducing Paper Results
