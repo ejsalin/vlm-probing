@@ -45,15 +45,15 @@ We present new multimodal tasks by modifying captions (see paper).
 
 #### Color
 This task is based on Flickr30k dataset.
-The dataset used for the Color task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
+The dataset used for the Color task is ```flickr_3000_colors.csv```, and its mismatched images equivalent is ```flickr_3000_colors_dec.csv```.
 
 #### Size
 This task is based on Flickr30k dataset.
-The dataset used for the Size task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
+The dataset used for the Size task is ```flickr_3000_size.csv```, and its mismatched images equivalent is ```flickr_3000_size_dec.csv```.
 
 #### Position
 This task is based on Flickr30k dataset.
-The dataset used for the Position task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
+The dataset used for the Position task is ```flickr_3000_pos.csv```, and its mismatched images equivalent is ```flickr_3000_pos_dec.csv```.
 
 #### Adversarial captions
 This task is based on MS-COCO dataset.
