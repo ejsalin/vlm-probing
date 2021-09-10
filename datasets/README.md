@@ -38,6 +38,23 @@ The dataset used for the POS tagging task is ```.csv```, and its mismatched imag
 #### Fine-grained classification
 
 This task is based on Flower-102.
-The dataset used for the POS tagging task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
+The dataset used for the Fine-grained task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
 
 ### Multimodal probing tasks
+We present new multimodal tasks by modifying captions (see paper).
+
+#### Color
+This task is based on Flickr30k dataset.
+The dataset used for the Color task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
+
+#### Size
+This task is based on Flickr30k dataset.
+The dataset used for the Size task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
+
+#### Position
+This task is based on Flickr30k dataset.
+The dataset used for the Position task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
+
+#### Adversarial captions
+This task is based on MS-COCO dataset.
+The dataset used for the Adversarial captions task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
