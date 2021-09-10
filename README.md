@@ -22,9 +22,11 @@ Our precomputed representations can be available on demand.
 
 ### Data
 
-The datasets and splits are available in the ```datasets``` folder and ```uniter_data``` folder for UNITER-formatted data.
+The datasets are available in the ```datasets``` folder and ```uniter_data``` folder for UNITER-formatted data.
 
 Read ```dataset/README.md``` and ```uniter_data/README.md``` for more details on the datasets.
+
+The splits are available in ```probing-vl-models/probing_tasks/split```
 
 ### Models
 
