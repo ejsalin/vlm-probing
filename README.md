@@ -49,7 +49,10 @@ UNITER and LXMERT detail their instructions in their repositories.
 ### Computing the image representations
 
 We use [MS-COCO](https://cocodataset.org/#home), [Flower-102](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) and [Flickr30k](http://shannon.cs.illinois.edu/DenotationGraph/) images.
-We compute their representations using ... model.
+
+- For UNITER, we compute the representations using ... model and save them ...
+
+- For LXMERT, we compute the representations using ... model and save them ...
 
 ### Computing the representations from scratch 
 To compute the UNITER, LXMERT, BERT, VIT and RESNET representations:
