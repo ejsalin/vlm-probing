@@ -34,7 +34,7 @@ The target used is computed using ```probing-vl-models/probing_tasks/probing_pos
 #### Object counting
 
 This task is based on MS-COCO.
-The dataset used for the POS tagging task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
+The dataset used for the Object counting task is ```coco_lxmert.csv```, and its mismatched images equivalent is ```coco_lxmert_dec.csv```.
 
 #### Fine-grained classification
 
@@ -58,4 +58,4 @@ The dataset used for the Position task is ```flickr_3000_pos.csv```, and its mis
 
 #### Adversarial captions
 This task is based on MS-COCO dataset.
-The dataset used for the Adversarial captions task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
+The datasets used for the Adversarial captions task are ```coco_altercap_lxmert.csv```, and its mismatched images equivalent is ```_dec.csv```.
