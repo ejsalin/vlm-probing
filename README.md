@@ -106,7 +106,7 @@ You can skip this steps by downloading representations (available on demand).
 
 ### Reproducing the probing experiments
 
-After having computed the representations, reproduce the experiments by executing those commands : 
+After having computed the representations, reproduce the experiments on linear probing models by executing those commands : 
 ```sh
 cd probing_tasks
 ./altercaps.sh
