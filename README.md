@@ -28,6 +28,10 @@ Read ```dataset/README.md``` and ```uniter_data/README.md``` for more details on
 
 ### Models
 
+The UNITER models should be saved ...
+
+The LXMERT models should be saved ...
+
 #### Pre-trained models
 - For UNITER, following their instructions :
 ```sh
