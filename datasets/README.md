@@ -34,7 +34,9 @@ The target used is computed using ```probing-vl-models/probing_tasks/probing_pos
 #### Object counting
 
 This task is based on MS-COCO.
-The dataset used for the Object counting task is ```coco_lxmert.csv```, and its mismatched images equivalent is ```coco_lxmert_dec.csv```.
+The dataset used for the Object counting task are ```coco_lxmert.csv``` and ```coco_uniter.csv```, and their mismatched caption equivalent is ```coco_lxmert_dec.csv``` and ```coco_uniter_dec.csv```.
+We make sure that MS-COCO images were not used for the training phase of UNITER and LXMERT pre-training.
+As UNITER and LXMERT do not use the same MS-COCO subsets for their pre-training, UNITER and LXMERT models are not trained on the same datasets for the probing task, but they are evaluated on the same dataset.
 
 #### Fine-grained classification
 
