@@ -24,12 +24,12 @@ The datasets and splits are available in the ```data.zip```.
 
 #### Pre-trained models
 - For UNITER, following their instructions :
-```
+```sh
 cd UNITER
 bash scripts/download_pretrained.sh $PATH_TO_STORAGE
 ```
 We use the base models in our experiments.
-- For LXMERT, following their instructions, the model is availabel at http://nlp.cs.unc.edu/data/model_LXRT.pth.
+- For LXMERT, following their instructions, the model is available at http://nlp.cs.unc.edu/data/model_LXRT.pth.
 
 ### Computing the representations from scratch 
 To compute the UNITER,LXMERT,BERT,VIT and RESNET representations:
