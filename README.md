@@ -16,11 +16,20 @@ To reproduce the results of the experiments on a specific Vision-Language model 
 - Execute the probing task
 Our precomputed representations can be available on demand
 
-### Data download
+### Data
 
 The datasets and splits are available in the ```data.zip```.
 
-### Models Download TODO
+### Models
+
+#### Pre-trained models
+- For UNITER, following their instructions :
+```
+cd UNITER
+bash scripts/download_pretrained.sh $PATH_TO_STORAGE
+```
+We use the base models in our experiments.
+- For LXMERT, following their instructions, the model is availabel at http://nlp.cs.unc.edu/data/model_LXRT.pth.
 
 ### Computing the representations from scratch 
 To compute the UNITER,LXMERT,BERT,VIT and RESNET representations:
