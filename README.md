@@ -14,6 +14,7 @@ The baselines are compatible with the LXMERT environment.
 ## Reproducing Paper Results
 To reproduce the results of the experiments on a specific Vision-Language model and probing task:
 - Download the data for the probing task
+- Compute the image region representations
 - Compute the model representations for this dataset
 - Execute the probing task
 Our precomputed representations can be available on demand
@@ -37,6 +38,8 @@ We use the base models in our experiments.
 
 For the paper experiments, the models are fine-tuned from pre-trained models on tasks VQA and NLVR2.
 UNITER and LXMERT detail their instructions in their repositories.
+
+### Computing the image representations TODO
 
 ### Computing the representations from scratch 
 To compute the UNITER, LXMERT, BERT, VIT and RESNET representations:
