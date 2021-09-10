@@ -17,6 +17,7 @@ To reproduce the results of the experiments on a specific Vision-Language model 
 - Compute the image region representations
 - Compute the model representations for this dataset
 - Execute the probing task
+
 Our precomputed representations can be available on demand.
 
 ### Data
