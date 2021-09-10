@@ -99,7 +99,7 @@ You can skip this steps by downloading representations (available on demand).
 
 ### Reproducing the probing experiments
 
-After having computed the representations, reproduce the experiments by executing those commands :  (Other tasks ???)
+After having computed the representations, reproduce the experiments by executing those commands : 
 ```sh
 cd probing_tasks
 ./altercaps.sh
@@ -107,6 +107,8 @@ cd probing_tasks
 ./colors_cls.sh
 ./flowers.sh
 ./postag.sh
+./objCount.sh
+./pos_size.sh
 ```
 
 
