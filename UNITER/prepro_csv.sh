@@ -1,4 +1,4 @@
-PYTHONNOUSERSITE=1 python prepro_csv.py --annotations ../datasets/flickr_3000_size.csv --output ./uniter_data/captions_data/flickr3000_txt_db_size
+python prepro_csv.py --annotations ../datasets/flickr_3000_size.csv --output ./uniter_data/captions_data/flickr3000_txt_db_size
 python prepro_csv.py --annotations ../datasets/flickr_3000_size_dec.csv --output ./uniter_data/captions_data/flickr3000_txt_db_size_dec
 python prepro_csv.py --annotations ../datasets/flickr_3000_pos.csv --output ./uniter_data/captions_data/flickr3000_txt_db_pos
 python prepro_csv.py --annotations ../datasets/flickr_3000_pos_dec.csv --output ./uniter_data/captions_data/flickr3000_txt_db_pos_dec
