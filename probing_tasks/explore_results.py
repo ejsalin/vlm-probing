@@ -103,12 +103,12 @@ if __name__ == "__main__":
         for model in means.keys():
             print(model,'_________________________________')
             print('train#')
-            print('lin : ',mean[model]['train_lin']+" last :"+mean_last[model]['train_lin']+"  epoch : "+mean_idx[model]['train_lin'])
-            print('mlp : ',mean[model]['train_mlp']+" last :"+mean_last[model]['train_mlp']+"  epoch : "+mean_idx[model]['train_mlp'])
+            print('lin-loss : ',mean[model]['train_lin']+" last :"+mean_last[model]['train_lin']+"  epoch : "+mean_idx[model]['train_lin'])
+            #print('mlp : ',mean[model]['train_mlp']+" last :"+mean_last[model]['train_mlp']+"  epoch : "+mean_idx[model]['train_mlp'])
             print()
             print('val#')
-            print('lin : ',mean[model]['val_lin']+" last :"+mean_last[model]['val_lin']+"  epoch : "+mean_idx[model]['val_lin'])
-            print('mlp : ',mean[model]['val_mlp']+" last :"+mean_last[model]['val_mlp']+"  epoch : "+mean_idx[model]['val_mlp'])
+            print('lin-loss : ',mean[model]['val_lin']+" last :"+mean_last[model]['val_lin']+"  epoch : "+mean_idx[model]['val_lin'])
+            #print('mlp : ',mean[model]['val_mlp']+" last :"+mean_last[model]['val_mlp']+"  epoch : "+mean_idx[model]['val_mlp'])
 
 
         sys.stdout = original_stdout
@@ -118,12 +118,12 @@ if __name__ == "__main__":
     output = output 
     for model in data[list(data.keys())[0]].keys() :
         m = data[list(data.keys())[0]][model]
-        plot_res([m['linear_train_loss'],m['linear_val_loss']],['train','val'],f"{model} linear loss",output,display=False)
+        #plot_res([m['linear_train_loss'],m['linear_val_loss']],['train','val'],f"{model} linear loss",output,display=False)
         #plot_res([m['mlp_train_loss'],m['mlp_val_loss']],['train','val'],f"{model} mlp loss",output,display=False)
 
 
-    plot_res([data[list(data.keys())[0]][model]['linear_val_loss'] for model in data[list(data.keys())[0]].keys() ],
-            [model for model in data[list(data.keys())[0]].keys()],"models val linear loss",output,display=False )
+    #plot_res([data[list(data.keys())[0]][model]['linear_val_loss'] for model in data[list(data.keys())[0]].keys() ],
+     #       [model for model in data[list(data.keys())[0]].keys()],"models val linear loss",output,display=False )
 
-    plot_res([data[list(data.keys())[0]][model]['mlp_val_loss'] for model in data[list(data.keys())[0]].keys() ],
-            [model for model in data[list(data.keys())[0]].keys()],"models val mlp loss",output,display=False )
+    #plot_res([data[list(data.keys())[0]][model]['mlp_val_loss'] for model in data[list(data.keys())[0]].keys() ],
+      #      [model for model in data[list(data.keys())[0]].keys()],"models val mlp loss",output,display=False )
