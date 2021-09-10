@@ -1,17 +1,26 @@
 # Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective
 
-This is the implementations of the experiences in the paper [paper]
+This is the repository to reproduce the probing experiments of the paper:
+"Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective."
+This repository is based on implementations by [UNITER](https://github.com/ChenRocks/UNITER) and [LXMERT](https://github.com/airsplay/lxmert)
 
-## Projet Setup
-To reproduces the results of the experiences we can proceed in two ways :
-- Computing the representations from scratch 
-- Using our precomputed representations 
+## Requirements
+To reproduce the results for UNITER, use the instructions on the original repository to set up the environment.
+To reproduce the results for LXMERT, use the instructions on the original repository to set up the environment.
+The baselines are compatible with the LXMERT environment.
+
+## Reproducing Paper Results
+To reproduce the results of the experiments on a specific Vision-Language model and probing task:
+- Download the data for the probing task
+- Compute the model representations for this dataset
+- Execute the probing task
+Our precomputed representations can be available on demand
 
 ## Data and models Download
 ## TODO 
 ### Computing the representations from scratch 
-To compute the UNITER,LXMERT,BERT,VIT and RESNET representations :
-1- Use the instruction on [UNITER](https://github.com/ChenRocks/UNITER) original repository to set up the environment , then execute 
+To compute the UNITER,LXMERT,BERT,VIT and RESNET representations:
+1- For UNITER, execute: 
 ```sh
 cd UNITER
 ./representations_scripts/get_repr_all_altercaps.sh # for the adversarial caption task  
@@ -22,7 +31,7 @@ cd UNITER
 ./representations_scripts/get_repr_all.sh # for the pos-tagging task  
 ./representations_scripts/get_repr_coco.sh # for the coco object counting task  
 ```
-2 - For Lxmert Representations , Use the instruction on [LXMERT](https://github.com/airsplay/lxmert) original repository to set up the environment , then execute
+2 - For LXMERT, execute:
 ```sh
 cd lxmert
 ./run/get_repr_all_altercaps.sh # for the adversarial caption task  
@@ -34,7 +43,7 @@ cd lxmert
 ./run/get_repr_coco.sh # for the coco object counting task  
 ```
 
-3 - For the baselines models (BERT,VIT and RESNET) use the same env with lxmert and execute :
+3 - For the baselines models (BERT,VIT and RESNET), execute :
 ```sh
 cd probing_tasks
 ./get_vit_representation.sh
