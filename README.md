@@ -16,9 +16,11 @@ To reproduce the results of the experiments on a specific Vision-Language model 
 - Execute the probing task
 Our precomputed representations can be available on demand
 
-## Data and models Download
-## TODO 
-### Computing the representations from scratch 
+### Data download TODO
+
+### Models Download TODO
+
+### Computing the model representations from scratch 
 To compute the UNITER,LXMERT,BERT,VIT and RESNET representations:
 1- For UNITER, execute: 
 ```sh
@@ -55,7 +57,7 @@ At the end all representations will be in the representations dir
 You can skip this steps by downloading representations using this script :
 TO DO
 
-## Probing
+### Probing
 
 For the probing you have to execute those commandes :
 ```sh
