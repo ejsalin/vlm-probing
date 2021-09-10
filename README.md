@@ -77,7 +77,7 @@ cd UNITER
 ./representations_scripts/get_repr_all_pos_size.sh # for the position and  size tasks 
 ./representations_scripts/get_repr_all_flower.sh # for the flower classification task  
 ./representations_scripts/get_repr_all.sh # for the pos-tagging task  
-./representations_scripts/get_repr_coco.sh # for the coco object counting task  
+./representations_scripts/get_repr_coco.sh # for the object counting task  
 ```
 2 - For LXMERT, execute:
 ```sh
@@ -88,7 +88,7 @@ cd lxmert
 ./run/get_repr_all_pos_size.sh # for the position and  size tasks 
 ./run/get_repr_all_flowers.sh # for the flower classification task  
 ./run/get_repr_all.sh # for the pos-tagging task  
-./run/get_repr_coco.sh # for the coco object counting task  
+./run/get_repr_coco.sh # for the object counting task  
 ```
 
 3 - For the baselines models (BERT, VIT and RESNET), execute :
@@ -107,13 +107,13 @@ You can skip this steps by downloading representations (available on demand).
 After having computed the representations, reproduce the experiments on linear probing models by executing those commands : 
 ```sh
 cd probing_tasks
-./altercaps.sh
-./bshift.sh
-./colors_cls.sh
-./flowers.sh
-./postag.sh
-./objCount.sh
-./pos_size.sh
+./altercaps.sh # for the adversarial caption task 
+./bshift.sh  # for the bigramshift task 
+./colors_cls.sh  # for the color classification task  
+./flowers.sh  # for the flower classification task  
+./postag.sh  # for the pos-tagging task  
+./objCount.sh  # for the object counting task
+./pos_size.sh  # for the position and  size tasks 
 ```
 
 
