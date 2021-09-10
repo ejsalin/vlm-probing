@@ -96,7 +96,7 @@ TO DO
 
 ### Reproducing the probing experiments
 
-To reproduce the experiments, execute those commands :
+After having computed the representations, reproduce the experiments by executing those commands :  (Other tasks ???)
 ```sh
 cd probing_tasks
 ./altercaps.sh
