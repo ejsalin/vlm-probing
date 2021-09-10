@@ -23,7 +23,8 @@ Our precomputed representations can be available on demand.
 ### Data
 
 The datasets and splits are available in ...
-Read ... For more details on the datasets.
+
+Read ... for more details on the datasets.
 
 ### Models
 
