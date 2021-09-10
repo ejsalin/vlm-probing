@@ -22,6 +22,8 @@ Our precomputed representations can be available on demand.
 
 ### Data
 
+We make available new datasets for multimodal probing experiments.
+
 The datasets are available in the ```datasets``` folder. Read ```dataset/README.md``` for more details on the datasets.
 
 The splits are provided in ```probing-vl-models/probing_tasks/split```
