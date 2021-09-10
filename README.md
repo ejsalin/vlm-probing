@@ -33,6 +33,11 @@ bash scripts/download_pretrained.sh $PATH_TO_STORAGE
 We use the base models in our experiments.
 - For LXMERT, following their instructions, the model is available at http://nlp.cs.unc.edu/data/model_LXRT.pth.
 
+#### Fine-tuned models
+
+For the paper experiments, the models are fine-tuned from pre-trained models on tasks VQA and NLVR2.
+UNITER and LXMERT detail their instructions in their repositories.
+
 ### Computing the representations from scratch 
 To compute the UNITER, LXMERT, BERT, VIT and RESNET representations:
 
