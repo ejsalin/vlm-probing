@@ -16,7 +16,9 @@ To reproduce the results of the experiments on a specific Vision-Language model 
 - Execute the probing task
 Our precomputed representations can be available on demand
 
-### Data download TODO
+### Data download
+
+The datasets and splits are available in the ```data.zip```.
 
 ### Models Download TODO
 
