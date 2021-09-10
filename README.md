@@ -87,7 +87,7 @@ TO DO
 
 ### Reproducing the probing experiments
 
-For the probing you have to execute those commandes :
+To reproduce the experiments, execute those commands :
 ```sh
 cd probing_tasks
 ./altercaps.sh
