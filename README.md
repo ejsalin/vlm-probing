@@ -89,10 +89,9 @@ cd probing_tasks
 ./get_bert_representation.sh
 ./get_resnet_representation.sh
 ```
-At the end all representations will be in the representations dir 
+At the end of this step, all representations will be saved in the representations directory. 
 
-You can skip this steps by downloading representations using this script :
-TO DO
+You can skip this steps by downloading representations (available on demand).
 
 ### Reproducing the probing experiments
 
