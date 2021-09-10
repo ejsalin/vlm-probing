@@ -26,7 +26,8 @@ The dataset used for the bigram shift task is ```flickr_3000_bshift.csv```, and 
 
 #### POS tagging
 
-The dataset used for the POS tagging task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
+The dataset used for the POS tagging task is ```flickr_3000.csv```, and its mismatched images equivalent is ```flickr_3000_dec.csv```.
+The target used is computed using ```probing-vl-models/probing_tasks/probing_postag.py```
 
 ### Vision probing tasks
 
