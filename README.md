@@ -20,7 +20,7 @@ Our precomputed representations can be available on demand
 
 ### Models Download TODO
 
-### Computing the model representations from scratch 
+### Computing the representations from scratch 
 To compute the UNITER,LXMERT,BERT,VIT and RESNET representations:
 1- For UNITER, execute: 
 ```sh
