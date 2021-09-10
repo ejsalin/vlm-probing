@@ -17,11 +17,12 @@ To reproduce the results of the experiments on a specific Vision-Language model 
 - Compute the image region representations
 - Compute the model representations for this dataset
 - Execute the probing task
-Our precomputed representations can be available on demand
+Our precomputed representations can be available on demand.
 
 ### Data
 
-The datasets and splits are available in the ```data.zip```.
+The datasets and splits are available in ...
+Read ... For more details on the datasets.
 
 ### Models
 
@@ -40,6 +41,8 @@ For the paper experiments, the models are fine-tuned from pre-trained models on 
 UNITER and LXMERT detail their instructions in their repositories.
 
 ### Computing the image representations TODO
+
+We use [MS-COCO](https://cocodataset.org/#home), [Flower-102](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) and [Flickr30k](http://shannon.cs.illinois.edu/DenotationGraph/) images, and compute their representations using ... model.
 
 ### Computing the representations from scratch 
 To compute the UNITER, LXMERT, BERT, VIT and RESNET representations:
