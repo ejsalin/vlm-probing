@@ -39,7 +39,7 @@ The dataset used for the POS tagging task is ```.csv```, and its mismatched imag
 #### Fine-grained classification
 
 This task is based on Flower-102.
-The dataset used for the Fine-grained task is ```.csv```, and its mismatched images equivalent is ```_dec.csv```.
+The dataset used for the Fine-grained task is ```flower_data.csv```.
 
 ### Multimodal probing tasks
 We present new multimodal tasks by modifying captions (see paper).
