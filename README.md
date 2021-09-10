@@ -63,7 +63,7 @@ As a result, we compute image region representations for the probing tasks datas
 
 - For UNITER, we compute the representations using the instructions in their repository and save them in ```UNITER/uniter_data/images_data```
 
-- For LXMERT, we compute the representations using the instructions in their repositories model and save them ...
+- For LXMERT, we compute the representations using the instructions in their repository and save them in ```lxmert/data``` in their respective folders.
 
 ### Computing the representations from scratch 
 Using the models, data and image region representations, we compute the representations used for the probing tasks.
