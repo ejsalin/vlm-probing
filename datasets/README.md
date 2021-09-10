@@ -60,4 +60,6 @@ The dataset used for the Position task is ```flickr_3000_pos.csv```, and its mis
 
 #### Adversarial captions
 This task is based on MS-COCO dataset.
-The datasets used for the Adversarial captions task are ```coco_altercap_lxmert.csv```, and its mismatched images equivalent is ```_dec.csv```.
+The datasets used for the Adversarial captions are ```coco_altercap_lxmert_train.csv```, ```coco_altercap_uniter_train.csv```, ```coco_altercap_lxmert_val.csv``` and ```coco_altercap_uniter_val.csv```, and their mismatched caption equivalent is ```coco_altercap_lxmert_train.csv```, ```coco_altercap_uniter_train.csv```, ```coco_altercap_lxmert_val.csv``` and ```coco_altercap_uniter_val.csv```.
+We make sure that MS-COCO images were not used for the training phase of UNITER and LXMERT pre-training.
+As UNITER and LXMERT do not use the same MS-COCO subsets for their pre-training, UNITER and LXMERT models are not trained on the same datasets for the probing task, but they are evaluated on the same dataset.
