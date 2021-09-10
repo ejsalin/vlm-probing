@@ -22,9 +22,9 @@ Our precomputed representations can be available on demand.
 
 ### Data
 
-The datasets and splits are available in ...
+The datasets and splits are available in the ```datasets``` folder and ```uniter_data``` folder for UNITER-formatted data.
 
-Read ... for more details on the datasets.
+Read ```dataset/README.md``` and ```uniter_data/README.md``` for more details on the datasets.
 
 ### Models
 
