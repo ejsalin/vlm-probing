@@ -32,7 +32,8 @@ We use the base models in our experiments.
 - For LXMERT, following their instructions, the model is available at http://nlp.cs.unc.edu/data/model_LXRT.pth.
 
 ### Computing the representations from scratch 
-To compute the UNITER,LXMERT,BERT,VIT and RESNET representations:
+To compute the UNITER, LXMERT, BERT, VIT and RESNET representations:
+
 1- For UNITER, execute: 
 ```sh
 cd UNITER
