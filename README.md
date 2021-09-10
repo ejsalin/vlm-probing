@@ -79,7 +79,7 @@ At the end all representations will be in the representations dir
 You can skip this steps by downloading representations using this script :
 TO DO
 
-### Probing
+### Reproducing the probing experiments
 
 For the probing you have to execute those commandes :
 ```sh
