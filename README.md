@@ -30,9 +30,9 @@ The splits are available in ```probing-vl-models/probing_tasks/split```
 
 ### Models
 
-The UNITER models should be saved ...
+The UNITER models should be saved in ```UNITER/pretrained/$MODEL```
 
-The LXMERT models should be saved ...
+The LXMERT models should be saved in ```lxmert/snap/pretrained/$MODEL```
 
 #### Pre-trained models
 - For UNITER, following their instructions :
@@ -47,6 +47,13 @@ We use the base models in our experiments.
 
 For the paper experiments, the models are fine-tuned from pre-trained models on tasks VQA and NLVR2.
 UNITER and LXMERT detail their instructions in their repositories.
+
+Once LXMERT finetuned the you will have two folders ```nlvr2_lxr955``` and ```vqa_lxr955``` .
+those folders must be copied into ```lxmert/snap/pretrained/$FOLDER```. We used the BEST.pth checkpoint for both VQA and NLVR2 
+
+For UNITER you will have also two folders for VQA and NLVR2, they must be copied into ```UNITER/pretrained/$FOLDER```.
+We used ```model_step_6500.pt``` for NLVR2 and ```model_step_6000.pt``` for VQA.
+
 
 ### Computing the image region representations
 
