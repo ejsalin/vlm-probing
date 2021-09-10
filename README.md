@@ -51,6 +51,8 @@ UNITER and LXMERT detail their instructions in their repositories.
 ### Computing the image region representations
 
 We use [MS-COCO](https://cocodataset.org/#home), [Flower-102](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) and [Flickr30k](http://shannon.cs.illinois.edu/DenotationGraph/) images.
+UNITER and LXMERT both use image region representations as input of their model.
+As a result, we compute image region representations for the probing tasks datasets.
 
 - For UNITER, we compute the representations using ... model and save them ...
 
