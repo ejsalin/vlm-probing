@@ -67,7 +67,7 @@ cd lxmert
 ./run/get_repr_coco.sh # for the coco object counting task  
 ```
 
-3 - For the baselines models (BERT,VIT and RESNET), execute :
+3 - For the baselines models (BERT, VIT and RESNET), execute :
 ```sh
 cd probing_tasks
 ./get_vit_representation.sh
