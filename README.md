@@ -50,7 +50,7 @@ bash scripts/download_pretrained.sh $PATH_TO_STORAGE
 We use the base models in our experiments.
 - For LXMERT, following their instructions, the model is available at http://nlp.cs.unc.edu/data/model_LXRT.pth.
 
-We use the pre-trained ViLT model made available by authors in our experiments (https://github.com/dandelin/ViLT/releases/download/200k/vilt_200k_mlm_itm.ckpt).
+We use the pre-trained ViLT model made available by authors in our experiments [here](https://github.com/dandelin/ViLT/releases/download/200k/vilt_200k_mlm_itm.ckpt).
 
 #### Fine-tuned models
 
@@ -123,7 +123,7 @@ At the end of this step, all representations will be saved in the representation
 You can skip this steps by downloading representations (available on demand).
 
 ### Reproducing the probing experiments
-FOr UNITER and LXMERT: 
+For UNITER and LXMERT: 
 After having computed the representations, reproduce the experiments on linear probing models by executing those commands : 
 ```sh
 cd probing_tasks
