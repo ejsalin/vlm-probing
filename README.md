@@ -18,12 +18,13 @@ The baselines are compatible with the LXMERT environment.
 
 ## Reproducing Paper Results
 To reproduce the results of the experiments on a specific Vision-Language model and probing task:
-- Download the data for the probing task
-- Compute the image region representations
-- Compute the model representations for this dataset
-- Execute the probing task
+- Download the data for the relevant probing task
 
-Our precomputed representations can be available on demand.
+- Compute the image region representations following the model instructions
+
+- Compute the joint image/text representations using the model for this dataset (it amounts to the last layer of the transformer)
+
+- Train the probing task on the representations and labels
 
 ### Data
 
